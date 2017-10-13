@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_112"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/logback-access-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/logback-classic-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/logback-core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/jsoup-1.10.3.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/json-20140107.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/WorkSpace/lib/mysql-connector-java-5.1.36.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
