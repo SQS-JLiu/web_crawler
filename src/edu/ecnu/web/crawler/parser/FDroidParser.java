@@ -314,7 +314,7 @@ public class FDroidParser implements Runnable {
         String issueUrl = appModel.getIssuesUrl();
         do {
             curPage++;
-            HttpResponse response = HttpUtils.getRawHtml(issueUrl + "&page=" + curPage, "664838289", "lj664838289");
+            HttpResponse response = HttpUtils.getRawHtml(issueUrl + "&page=" + curPage, "github账号", "github密码");
             int StatusCode = response.getStatusLine().getStatusCode();
             if (StatusCode == 200) {
                 if (response.getEntity() == null) {
