@@ -370,7 +370,7 @@ public class FDroidParser implements Runnable {
     }
 
     public void getAllCommentsOfIssues(String commentsUrl) {
-        HttpResponse response = HttpUtils.getRawHtml(commentsUrl, "664838289", "lj664838289");
+        HttpResponse response = HttpUtils.getRawHtml(commentsUrl, "github账号", "github密码");
         int StatusCode = response.getStatusLine().getStatusCode();
         if (StatusCode == 200) {
             if (response.getEntity() == null) {
